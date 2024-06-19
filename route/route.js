@@ -1,8 +1,8 @@
 const express = require('express')
-const voitureModel = require('./model/voiture.model')
+
+const voitureModel = require('../model/voiture.model')
 
 const route = express.Router()
-
 route.get('/', (req, res) => {
     res.send('Bonjour Bootcamp React!')
 })
