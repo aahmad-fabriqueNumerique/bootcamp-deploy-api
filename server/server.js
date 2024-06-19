@@ -3,7 +3,7 @@ const express = require('express')
 const routes = require('../route/route')
 const mongoConnect = require('../connection/connect') 
 
-const PORT = process.env.PORT
+const PORT = 3000
 
 const app = express()
 app.use(express.json())
