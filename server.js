@@ -1,6 +1,6 @@
 require('dotenv').config({path: 'config.env'})
 const express = require('express')
-c
+const routes = require('./route/route')
 const mongoConnect = require('./connection/connect') 
 
 const PORT = 3000
